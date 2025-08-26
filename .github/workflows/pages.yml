@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       # Optional: if you later add a build step (e.g., npm ci && npm run build), do it here
       # - name: Setup Node
